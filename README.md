@@ -17,5 +17,5 @@ The School Management Application is a Java Swing application designed to stream
 - **JDBC**: Java Database Connectivity enables seamless interaction with the MySQL database.
 - **Git**: Powerful version control system facilitating collaborative development and tracking of project changes.
 
-- Instalation:
+## Instalation:
 - Soon.... 
