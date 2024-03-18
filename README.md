@@ -25,11 +25,11 @@ This app was created as part of my lava Course.
    ```bash
    git clone https://github.com/AngelosGi/SchoolManagtry138.git
 
-- Set up the MySQL database by importing the provided SQL schema file (mySql.sql).
+- Set up the MySQL database by importing the provided SQL schema file (school_management.sql).
 
 - Add the MySQL connector to the project dependencies. You can download the MySQL connector JAR file from the official MySQL website: MySQL Connector/J.
 
-- Configure the database connection parameters in the DatabaseUtil.java file.
+- Configure the database connection parameters in the DatabaseConnection.java file.
 
 - Open the project in your preferred Java IDE.
 
@@ -39,4 +39,6 @@ Usage
 Launch the application.
 Navigate through the tabs to manage students, courses, and grades.
 Use the provided buttons to add, edit, or delete records as needed.
-Follow on-screen prompts for any additional actions.
+
+toDo:
+refactor whole project to a proper standard.
