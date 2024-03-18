@@ -471,7 +471,7 @@ public class SchoolAppMainWindow {
             return;
         }
 
-        // Retrieve data from the selected row in the table model
+        // Retrieve data from the selected row in the table model.
         String firstName = (String) tableModel.getValueAt(selectedRow, 1);
         String lastName = (String) tableModel.getValueAt(selectedRow, 2);
         String gender = (String) tableModel.getValueAt(selectedRow, 3);
