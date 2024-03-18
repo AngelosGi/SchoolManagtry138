@@ -1,21 +1,42 @@
 # School Management Application
 
-The School Management Application is a Java Swing application designed to streamline the management of student, course, and grade information within educational institutions. This comprehensive tool offers functionalities to seamlessly add, edit, and delete student and course records, along with efficient grade management capabilities.
+The School Management Application is a Java Swing application designed to manage student, course, and grade information for a school. This application provides functionalities to add, edit, and delete students and courses, as well as manage grades for individual students.
+
+This app was created as part of my lava Course.
 
 ## Features
 
-- **Student Management**: Easily add, edit, and delete student information including first name, last name, gender, date of birth, and address.
-- **Course Management**: Efficiently manage course details such as title, and make updates as necessary.
-- **Grades Management**: Assign and manage grades for individual students across various courses.
-- **Intuitive User Interface**: Utilizes Java Swing to provide a user-friendly and interactive experience for efficient navigation and operation.
+- **Student Management:** Add, edit, and delete student information including first name, last name, gender, date of birth, and address.
+- **Course Management:** Add, edit, and delete course information including course title.
+- **Grades Management:** Assign and manage grades for students enrolled in courses.
+- **Intuitive User Interface:** Utilizes Java Swing for a user-friendly and interactive experience.
 
 ## Technologies Used
 
-- **Java**: Core programming language for developing robust applications.
-- **Java Swing**: GUI toolkit for creating dynamic and visually appealing graphical user interfaces.
-- **MySQL**: Reliable relational database management system for secure and structured data storage.
-- **JDBC**: Java Database Connectivity enables seamless interaction with the MySQL database.
-- **Git**: Powerful version control system facilitating collaborative development and tracking of project changes.
+- **Java:** Core programming language used for application development.
+- **Java Swing:** GUI toolkit for creating graphical user interfaces in Java.
+- **MySQL:** Relational database management system used for data storage.
+- **JDBC:** Java Database Connectivity for interacting with the MySQL database.
+- **Git:** Version control system for tracking changes in the project.
 
-## Instalation:
-- Soon.... 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AngelosGi/SchoolManagtry138.git
+
+- Set up the MySQL database by importing the provided SQL schema file (mySql.sql).
+
+- Add the MySQL connector to the project dependencies. You can download the MySQL connector JAR file from the official MySQL website: MySQL Connector/J.
+
+- Configure the database connection parameters in the DatabaseUtil.java file.
+
+- Open the project in your preferred Java IDE.
+
+- Build and run the project.
+
+Usage
+Launch the application.
+Navigate through the tabs to manage students, courses, and grades.
+Use the provided buttons to add, edit, or delete records as needed.
+Follow on-screen prompts for any additional actions.
