@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SchoolAppMainWindow {
     private static DefaultTableModel courseTableModel; // Declare courseTableModel at the class level
-    private static boolean isEditClicked = false; // Flag to track whether the "Edit Student" button is clicked
+//    private static boolean isEditClicked = false; // Flag to track whether the "Edit Student" button is clicked
 
     public static void main(String[] args) {
         JFrame mainFrame = new JFrame("School Management App");
@@ -265,17 +265,8 @@ public class SchoolAppMainWindow {
         studentPanel.add(new JScrollPane(studentTable), BorderLayout.SOUTH); // Position table below
 
         // Action Listeners
-        saveButton.addActionListener(e -> {
-            if (isEditClicked) {
-                editStudent(tableModel, studentTable, firstNameField, lastNameField, dobField, addressField, genderComboBox);
-            } else {
-                saveStudent(tableModel, studentTable, firstNameField, lastNameField, dobField, addressField, genderComboBox);
-            }
-        });
-        editButton.addActionListener(e -> {
-            isEditClicked = true;
-            editStudent(tableModel, studentTable, firstNameField, lastNameField, dobField, addressField, genderComboBox);
-        });
+        saveButton.addActionListener(e -> saveStudent(tableModel, studentTable, firstNameField, lastNameField, dobField, addressField, genderComboBox));
+        editButton.addActionListener(e -> editStudent(tableModel, studentTable, firstNameField, lastNameField, dobField, addressField, genderComboBox));
         deleteButton.addActionListener(e -> deleteStudent(tableModel, studentTable));
 
         // Initial Load of Student Data
